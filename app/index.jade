@@ -10,6 +10,7 @@ html(ng-app="App")
             .col-md-4
                 section.navBar
                     nav.listMenu
+                        h3  GLOBOCOM/
                         ul
                             li(ng-repeat="listas in list | orderBy: '-forks_count' | limitTo:quantity")
                                 [{{$index + 1}}] -

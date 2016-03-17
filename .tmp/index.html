@@ -16,6 +16,7 @@
       <div class="col-md-4">
         <section class="navBar">
           <nav class="listMenu">
+            <h3> GLOBOCOM/</h3>
             <ul>
               <li ng-repeat="listas in list | orderBy: '-forks_count' | limitTo:quantity">[{{$index + 1}}] -<a href="#" ng-click="abrirSubList(listas)"> {{listas.name}}</a></li>
             </ul>

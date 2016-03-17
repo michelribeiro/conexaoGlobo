@@ -7310,6 +7310,11 @@ body {
   height: 100%;
 }
 
+h3 {
+  color: #fff;
+  padding-left: 20px;
+}
+
 .navBar {
   background: #4078c0;
   padding: 10px 0;
@@ -7317,6 +7322,9 @@ body {
 }
 .navBar ul {
   padding-left: 20px;
+}
+.navBar ul li {
+  list-style-type: none;
 }
 .navBar li,
 .navBar a {

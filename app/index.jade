@@ -1,0 +1,22 @@
+doctype html
+html(ng-app="App")
+    head
+        include _partials/sections/head-top
+
+        link(rel='stylesheet', href='styles/main.css')
+
+    body(ng-controller="listCtrl")
+        .content
+            .grid-colun-6
+                ul
+                    li(ng-repeat="listas in list")
+                        [{{$index + 1}}] -
+                        a(href="#")  {{listas.name}}
+                        |  Stars {{listas.stargazers_count}}
+                        |  Forks {{listas.forks_count}}
+
+            .grid-colun-6
+                h4  Segunda coluna
+
+
+        include scripts/scripts

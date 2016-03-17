@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="App">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>VML - Conection whit GIT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Conection with github">
+    <meta name="keywords" content="git,github,conection,vml">
+    <meta name="author" content="VML">
+    <meta name="copyright" content="VML - CONECTION WITH GITHUB">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body ng-controller="listCtrl">
+    <div class="content">
+      <div class="grid-colun-6">
+        <ul>
+          <li ng-repeat="listas in list">[{{$index + 1}}] -<a href="#"> {{listas.name}}</a> Stars {{listas.stargazers_count}}
+             Forks {{listas.forks_count}}
+          </li>
+        </ul>
+      </div>
+      <div class="grid-colun-6">
+        <h4> Segunda coluna</h4>
+      </div>
+    </div>
+    <script src="scripts/vendor/jquery.js"></script>
+    <script src="scripts/vendor/angular.min.js"></script>
+    <script src="scripts/apis-angular.js"></script>
+  </body>
+</html>

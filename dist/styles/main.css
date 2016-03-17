@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/*********************************************************************
+*  grid
+*********************************************************************/
+/*********************************************************************
+*  Typography
+*********************************************************************/
+/*********************************************************************
+*  Colors
+*********************************************************************/
+/*********************************************************************
+*  T├ìTULOS
+*********************************************************************/
+.grid-colun-1 {
+  width: 53px;
+  float: left;
+}
+
+.grid-colun-2 {
+  width: 136px;
+  float: left;
+}
+
+.grid-colun-3 {
+  width: 219px;
+  float: left;
+}
+
+.grid-colun-4 {
+  width: 302px;
+  float: left;
+}
+
+.grid-colun-5 {
+  width: 385px;
+  float: left;
+}
+
+.grid-colun-6 {
+  width: 468px;
+  float: left;
+}
+
+.grid-colun-7 {
+  width: 551px;
+  float: left;
+}
+
+.grid-colun-8 {
+  width: 634px;
+  float: left;
+}
+
+.grid-colun-9 {
+  width: 717px;
+  float: left;
+}
+
+.grid-colun-10 {
+  width: 800px;
+  float: left;
+}
+
+.grid-colun-11 {
+  width: 883px;
+  float: left;
+}
+
+.grid-colun-12 {
+  width: 966px;
+  float: left;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: white;
+}
+
+.content {
+  width: 966px;
+  margin: 0 auto;
+}

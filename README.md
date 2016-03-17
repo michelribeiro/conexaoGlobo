@@ -8,12 +8,8 @@
 
 
 ##### CÓDIGOS UTILIZADOS
-* HTML
-* SCSS COMPILADO
+* JADE
+* SCSS
 * GRUNTJS
 * ANGULARJS
-
-
-# Apesas de não ter completado o restante das tarefas por falta de tempo, segue a requisição feita em AngularJs.
-
-#Grato
+* JSHINT

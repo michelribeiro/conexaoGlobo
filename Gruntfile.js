@@ -174,6 +174,11 @@ module.exports = function(grunt) {
                     expand: true,
                     flatten: true,
                     src: '<%= config.app %>/scripts/apis-angular.js' , dest: '<%= config.tmp %>/scripts/apis-angular.js'
+                },
+                {
+                    expand: true,
+                    flatten: true,
+                    src: '<%= config.app %>/images/*' , dest: '<%= config.tmp %>/images/'
                 }]
             },
             dist: {
@@ -186,6 +191,11 @@ module.exports = function(grunt) {
                     expand: true,
                     flatten: true,
                     src: '<%= config.app %>/scripts/apis-angular.js' , dest: '<%= config.dist %>/scripts/apis-angular.js'
+                },
+                {
+                    expand: true,
+                    flatten: true,
+                    src: '<%= config.app %>/images/*' , dest: '<%= config.dist %>/images/'
                 }]
             },
         },

@@ -3,11 +3,24 @@
     margin: 0;
 }
 
+html,
 body {
-    background: white;
+    background: #fff;
+    height: 100%;
 }
 
-.content {
-    width: 966px;
-    margin: 0 auto;
+.navBar {
+    background: #4078c0;
+    padding: 10px 0;
+    height: 100%;
+
+    ul {
+        padding-left: 20px;
+    }
+
+    li,
+    a {
+        color: #fff;
+        margin-bottom: 5px;
+    }
 }

@@ -15,9 +15,9 @@ app.controller('listCtrl', function ($scope, $http) {
 
     $scope.abrirSubList = function(list) {
 
-        $http.get(list.url).success(function(dados) {
-            $scope.item = dados;
+        $http.get(list.url+'/commits').success(function(dados) {
+            $scope.commits = dados;
+            console.log(list.url+'/commits');
         });
     };
 });
-

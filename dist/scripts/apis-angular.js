@@ -6,8 +6,8 @@ app.controller("listCtrl", function($scope, $http) {
             $scope.list = dados;
         });
     }, $scope.quantity = 20, $scope.importJson(), $scope.abrirSubList = function(list) {
-        $http.get(list.url).success(function(dados) {
-            $scope.item = dados;
+        $http.get(list.url + "/commits").success(function(dados) {
+            $scope.commits = dados, console.log(list.url + "/commits");
         });
     };
 });

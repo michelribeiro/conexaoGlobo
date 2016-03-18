@@ -7331,3 +7331,20 @@ h3 {
   color: #fff;
   margin-bottom: 5px;
 }
+
+.listCommits li {
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 100%;
+}
+
+.avatar {
+  width: 60px;
+  height: 36px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.avatar img {
+  width: 100%;
+}

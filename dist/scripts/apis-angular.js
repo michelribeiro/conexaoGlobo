@@ -1,4 +1,4 @@
-var app = angular.module("App", []);
+var app = angular.module("App", [ "angularUtils.directives.dirPagination" ]);
 
 app.controller("listCtrl", function($scope, $http) {
     $scope.importJson = function() {

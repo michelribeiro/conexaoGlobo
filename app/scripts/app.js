@@ -1,5 +1,5 @@
 
-var app = angular.module('App', []);
+var app = angular.module('App', ['angularUtils.directives.dirPagination']);
 
 app.controller('listCtrl', function ($scope, $http) {
 
@@ -9,6 +9,7 @@ app.controller('listCtrl', function ($scope, $http) {
             $scope.list = dados;
         });
     };
+
     $scope.quantity = 20;
     $scope.importJson();
 
@@ -19,3 +20,4 @@ app.controller('listCtrl', function ($scope, $http) {
         });
     };
 });
+
